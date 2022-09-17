@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    width: 750px;
+    margin: 0 auto;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.wrapper { 
+    
+}
+.cards {
+}
+
+.course-item-title {
+    
+}
+.course-item-value {
+   text-align: center;
+}
+.cards__forms {
+}
+.title {
+    text-align: center;
+}
+.courses {
+    display: flex;
+    justify-content: space-between;    
+}
+.course__item-card {
+    text-align: center;
+    width: 250px;
+    height: 70px;
+    padding-top: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 10px
+}
+.course__item-title {
+}
+.course__item-value {
+}
+.input__group { 
+    padding-top: 15px;
+    height: 150px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 10px
+}
+.input{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.input__go {
+
+}
+.input__form {
+}
+.input__got {
+}
+.result {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.result__form {
+}
+.put__form {
+}
+.get__form {
+}
+.footer {
+    text-align: center;
+    margin-top: 50px;
+}
+.footer__link {
+}
+

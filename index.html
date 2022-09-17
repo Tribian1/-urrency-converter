@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta name="viewport" 
+			content="width=device-width, 
+			initial-scale=1, s
+			hrink-to-fit=no" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Конвертер валют на JavaScript</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="wrapper">
+				<div class="cards">
+					<div class="cards__forms">
+						<form>
+							<h1 class="title">Конвектор</h1>
+
+							<div class="courses">
+								<div class="course__item-card">
+									<div class="course__item-title">Курс USD</div>
+									<div class="course__item-value" data-value="USD">----</div>
+								</div>
+								<div class="course__item-card">
+									<div class="course__item-title">Курс EUR</div>
+									<div class="course__item-value" data-value="EUR">----</div>
+								</div>
+								<div class="course__item-card">
+									<div class="course__item-title">Курс BTC</div>
+									<div class="course__item-value" data-value="BTC">----</div>
+								</div>
+							</div>
+
+							<div class="input__group">
+								<div class="input">
+									<div class="input__go">
+										<label for="name">Отдаю:</label>
+										<select
+											disabled
+											class="input__form"
+											id="exampleFormControlSelect1"
+										>
+											<option value="UAH" selected>UAH</option>
+										</select>
+									</div>
+									<div class="input__go">
+										<label for="name">Получаю:</label>
+										<select
+											id="select"
+											class="input__got"
+											id="exampleFormControlSelect1"
+										>
+											<option value="USD">USD </option>
+											<option value="EUR">EUR </option>
+											<option value="BTC">BTC</option>
+										</select>
+									</div>
+								</div>
+								<div class="result">
+									<div class="result__form">
+										<input
+											id="input"
+											type="number"
+											class="put__form"
+											id="name"
+											autofocus
+										/>
+									</div>
+									<div class="result__form">
+										<input
+											id="result"
+											type="number"
+											class="get__form"
+											id="name"
+										/>
+									</div>
+								</div>
+							</div>
+
+							
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+
+		<footer class="footer">
+			<a class="footer__link" target="_blank" href="#">GitHub</a>
+		</footer>
+
+		<script src="main.js"></script>
+	</body>
+</html>
